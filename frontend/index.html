@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Office Map | ChemAxon</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <style>
+        #map, .map {
+            height: 768px;
+            width: 768px;
+        }
+        #coords {
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm">
+            <h1>Office Map | ChemAxon</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">
+            <ul lass="list-group">
+                <li class="list-group-item">Application Scientists</li>
+                <li class="list-group-item">Calculators & Discovery Tools</li>
+                <li class="list-group-item">CEO</li>
+                <li class="list-group-item">ChemAxon Synergy ( PS indigo team )</li>
+                <li class="list-group-item">Chemical representation</li>
+                <li class="list-group-item">Chemicalize</li>
+                <li class="list-group-item">Compliance Checker</li>
+                <li class="list-group-item">Compound Registration</li>
+                <li class="list-group-item">Consultancy</li>
+                <li class="list-group-item">EU Sales</li>
+                <li class="list-group-item">Finance</li>
+                <li class="list-group-item">IT</li>
+                <li class="list-group-item">JC4O</li>
+                <li class="list-group-item">JCB</li>
+                <li class="list-group-item">License</li>
+                <li class="list-group-item">Marketing</li>
+                <li class="list-group-item">Markush</li>
+                <li class="list-group-item">Marvin Classic</li>
+                <li class="list-group-item">Marvin JS</li>
+                <li class="list-group-item">Marvin Live</li>
+                <li class="list-group-item">Naming</li>
+                <li class="list-group-item">People Engagement</li>
+                <li class="list-group-item">Pipeline Pilot development</li>
+                <li class="list-group-item">Plexus Biologics</li>
+                <li class="list-group-item">Plexus Suite (vertical and horizontal teams)</li>
+                <li class="list-group-item">PS Blue</li>
+                <li class="list-group-item">PS Red</li>
+                <li class="list-group-item">PS Sky</li>
+                <li class="list-group-item">PS Tester</li>
+                <li class="list-group-item">Sales alignment</li>
+                <li class="list-group-item">SharePoint + ChemLocator</li>
+                <li class="list-group-item">SMAC</li>
+                <li class="list-group-item">SRE (ex Cloud Operation)</li>
+                <li class="list-group-item">Support Team</li>
+                <li class="list-group-item">Team Q</li>
+                <li class="list-group-item">US Sales</li>
+                <li class="list-group-item">UX</li>
+                <li class="list-group-item">Webservices</li>
+            </ul>
+        </div>
+        <div class="col-sm">
+            <div id="coords"></div>
+            <div id="map"></div>
+        </div>
+
+</div>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKw8VjRbG7u7gWRaEljdJh_1sZaS-NNnU&callback=initMap"></script>
+
+<script src="js/map_cxn.js" ></script>
+</body>
+</html>
