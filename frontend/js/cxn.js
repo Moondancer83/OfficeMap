@@ -66,8 +66,9 @@ function addCoordinates (map) {
     map.controls[google.maps.ControlPosition.TOP_CENTER].push(coordsDiv);
     map.addListener('mousemove', function (event) {
         coordsDiv.textContent =
-            'lat: ' + event.latLng.lat() + ', ' +
-            'lng: ' + event.latLng.lng() + ' (zoom: ' + map.getZoom() + ")";
+            'LAT:  ' + round2(event.latLng.lat(), map.getZoom() / 4) + ' | ' +
+            'LNG:  ' + round2(event.latLng.lng(), map.getZoom() / 4) + ' | ' +
+            'ZOOM: ' + map.getZoom();
     });
 }
 
@@ -90,13 +91,13 @@ function addModeSwitcher (map) {
     map.addListener('maptypeid_changed', function () {
         switch (map.getMapTypeId()) {
             case 'budapest':
-                map.setCenter(locations[0].position)
+                map.setCenter(locations[0].position);
                 break;
             case 'prague':
-                map.setCenter(locations[1].position)
+                map.setCenter(locations[1].position);
                 break;
             case 'boston':
-                map.setCenter(locations[2].position)
+                map.setCenter(locations[2].position);
                 break;
             default:
                 break;
@@ -111,4 +112,26 @@ function getRanges () {
 
 function getCustomTileUrl (zoom, coord) {
     return 'img/' + zoom + '/cxn_' + coord.x + '_' + coord.y + '_' + zoom + '.png';
+}
+
+/**
+ * Enhanced round function to handle double values as decimals.
+ *
+ * @param value
+ * @param decimals
+ */
+function round2 (value, decimals) {
+    round(value, Math.round(decimals));
+}
+
+/**
+ * Rounding decimal numbers correctly.
+ *
+ * @author Jack Moore
+ * @param value to round
+ * @param decimals: number  of needed decimals
+ * @returns {number}
+ */
+function round(value, decimals) {
+    return Number(Math.round(value+'e'+decimals)+'e-'+decimals);
 }

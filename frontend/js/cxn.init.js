@@ -29,6 +29,6 @@ function initMap () {
         addCxnLocations(map);
 
 
-    }, 1000);
+    }, 2000);
 
 }
