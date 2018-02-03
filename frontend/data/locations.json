@@ -1,0 +1,26 @@
+[
+  {
+    "position": {
+      "lat": 47.56181194858842,
+      "lng": 19.054730661376915
+    },
+    "title": "Budapest HQ",
+    "icon": "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png"
+  },
+  {
+    "position": {
+      "lat": 50.0763152,
+      "lng": 14.4527497
+    },
+    "title": "Prague HQ",
+    "icon": "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png"
+  },
+  {
+    "position": {
+      "lat": 42.3627659,
+      "lng": -71.0857549
+    },
+    "title": "Boston HQ",
+    "icon": "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png"
+  }
+]

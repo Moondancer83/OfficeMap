@@ -1,0 +1,134 @@
+[
+  {
+    "position": {
+      "lat": 47.56181194858842,
+      "lng": 19.054730661376915
+    },
+    "title": "Lobby",
+    "icon": "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png"
+  },
+  {
+    "position": {
+      "lat": 47.56179004858842,
+      "lng": 19.054909661376915
+    },
+    "title": "Dining Room",
+    "icon": "http://maps.google.com/mapfiles/kml/pal2/icon45.png"
+  },
+  {
+    "position": {
+      "lat": 47.56179004858842,
+      "lng": 19.054909661376915
+    },
+    "title": "Marvin"
+  },
+  {
+    "position": {
+      "lat": 47.56179004858842,
+      "lng": 19.054909661376915
+    },
+    "title": "Calculators & Discovery Tools"
+  },
+  {
+    "position": {
+      "lat": 47.56179004858842,
+      "lng": 19.054909661376915
+    },
+    "title": "Chemicalize"
+  },
+  {
+    "position": {
+      "lat": 47.56179004858842,
+      "lng": 19.054909661376915
+    },
+    "title": "JCB & Compliance Checker"
+  },
+  {
+    "position": {
+      "lat": 47.56179004858842,
+      "lng": 19.054909661376915
+    },
+    "title": "Finance & People Engagement",
+    "icon": "http://maps.google.com/mapfiles/kml/pal2/icon60.png"
+  },
+  {
+    "position": {
+      "lat": 47.56179004858842,
+      "lng": 19.054909661376915
+    },
+    "title": "Business Line Team",
+    "icon": "http://maps.google.com/mapfiles/kml/pal2/icon56.png"
+  },
+  {
+    "position": {
+      "lat": 47.56179004858842,
+      "lng": 19.054909661376915
+    },
+    "title": "JChem for Office"
+  },
+  {
+    "position": {
+      "lat": 47.56191004858842,
+      "lng": 19.054753661376915
+    },
+    "title": "IT",
+    "icon": "http://maps.google.com/mapfiles/kml/pal2/icon26.png"
+  },
+  {
+    "position": {
+      "lat": 47.56179004858842,
+      "lng": 19.054909661376915
+    },
+    "title": "ChemAxon Synergy",
+    "icon": "http://maps.google.com/mapfiles/ms/icons/purple-dot.png"
+  },
+
+  {
+    "position": {
+      "lat": 47.56179004858842,
+      "lng": 19.054909661376915
+    },
+    "title": "Plexus Red",
+    "icon": "http://maps.google.com/mapfiles/ms/icons/red-dot.png"
+  },
+  {
+    "position": {
+      "lat": 47.56200794858842,
+      "lng": 19.054986661376915
+    },
+    "title": "Mark Kalinovits"
+  },
+
+  {
+    "position": {
+      "lat": 47.56179004858842,
+      "lng": 19.054909661376915
+    },
+    "title": "Plexus Analysis",
+    "icon": "http://maps.google.com/mapfiles/ms/icons/green-dot.png"
+  },
+  {
+    "position": {
+      "lat": 47.56179004858842,
+      "lng": 19.054909661376915
+    },
+    "title": "Plexus Biologics",
+    "icon": "http://maps.google.com/mapfiles/ms/micons/ltblue-dot.png"
+  },
+  {
+    "position": {
+      "lat": 47.56179004858842,
+      "lng": 19.054909661376915
+    },
+    "title": "Compound Registration",
+    "icon": "http://maps.google.com/mapfiles/ms/icons/orange-dot.png"
+  },
+  {
+    "position": {
+      "lat": 47.56179004858842,
+      "lng": 19.054909661376915
+    },
+    "title": "SRE",
+    "icon": "http://maps.google.com/mapfiles/kml/pal2/icon17.png"
+}
+]
