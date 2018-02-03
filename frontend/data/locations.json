@@ -9,16 +9,16 @@
   },
   {
     "position": {
-      "lat": 50.0763152,
-      "lng": 14.4527497
+      "lat": 50.07597,
+      "lng": 14.45349
     },
     "title": "Prague HQ",
     "icon": "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png"
   },
   {
     "position": {
-      "lat": 42.3627659,
-      "lng": -71.0857549
+      "lat": 42.36262274043323,
+      "lng": -71.08342051516042
     },
     "title": "Boston HQ",
     "icon": "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png"
